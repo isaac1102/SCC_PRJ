@@ -1,0 +1,19 @@
+{
+  "name": "scc_prj",
+  "version": "1.0.0",
+  "description": "SCC project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaac1102/SCC_PRJ.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaac1102/SCC_PRJ/issues"
+  },
+  "homepage": "https://github.com/isaac1102/SCC_PRJ#readme"
+}
