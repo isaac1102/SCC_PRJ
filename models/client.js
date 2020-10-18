@@ -54,4 +54,4 @@ var ClientSchema = mongoose.Schema({
     },
 }, {minimize: false});
 
-// var Client = module.exports = mongoose.model('Client', ClientSchema);
+var Client = module.exports = mongoose.model('Client', ClientSchema);
