@@ -1,15 +1,18 @@
 // const mongo = require("mongodb");
 const mongoose = require("mongoose");
+mongoose.Promise = global.Promise;
 const express = require("express");
 const path = require("path");
 const app = express();
 
 const keys = require("./config/keys")
 
-const loginRoute = require("./routes/account/login")
-const registerRoute = require("./routes/account/register")
+// Call routers
+const indexRouter = require("./routes/index")
+const loginRouter = require("./routes/account/login")
+const registerRouter = require("./routes/account/register")
 
-mongoose.Promise = global.Promise;
+const port = 8000;
 
 // const session = require("express-session");
 
@@ -22,19 +25,11 @@ db.once('open', function() {
     console.log("Successfully connection to MongoDB");
 })
 
-app.get('/', (req, res)=> {
-    res.send('Landing HTML here');
-});
-app.use('/', loginRoute)
-app.use('/', registerRoute)
-/*
-Landing html example
-app.use(express.static(path.join(__dirname, 'views')));
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'html', 'root.html'))
-});
-*/
+app.use('/', indexRouter)
+app.use('/', loginRouter)
+app.use('/', registerRouter)
 
-app.listen(8080, () => {
-    console.log('Express App on port 8000');
+
+app.listen(port, () => {
+    console.log('Listening on port ${port}');
 });
