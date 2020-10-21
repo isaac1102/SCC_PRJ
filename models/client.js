@@ -1,10 +1,6 @@
 const mongoose = require("mongoose");
 
 var ClientSchema = mongoose.Schema({
-    type: {
-        type: String,
-        default: "c"
-    },
     // For any reply/subscription notification
     messageNotification: {
         type: Boolean,
@@ -46,12 +42,10 @@ var ClientSchema = mongoose.Schema({
     appleID: {
         type: String
     },
-    // pic stores the 'filename' of the profile picture
-    // 회사 로고
-    companyLogo: {
-        type: String,
-        default: ""
-    },
+    subscription: {
+        type: Boolean,
+        default: false
+    }
 }, {minimize: false});
 
 var Client = module.exports = mongoose.model('Client', ClientSchema);
