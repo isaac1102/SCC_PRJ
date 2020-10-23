@@ -4,7 +4,9 @@
   "description": "SCC project",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e js,html ./bin/www",
+    "dev": "nodemon ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,11 @@
   "homepage": "https://github.com/isaac1102/SCC_PRJ#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "cors": "^2.8.5",
     "mongoose": "^5.10.9",
-    "path": "^0.12.7"
+    "path": "^0.12.7",        
+    "helmet": "^3.22.0",
+    "hpp": "^0.2.3",
+    "dotenv": "^8.0.0"
   }
 }
