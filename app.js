@@ -41,13 +41,15 @@ class App {
     dbConnection() {
         mongoose.Promise = global.Promise;
 
+        mongoose.set('useCreateIndex', true);
+
         mongoose
             .connect(
                 'mongodb+srv://' +
-                    keys.mongodb.user +
+                    process.env.DB_USER +
                     ':' +
-                    keys.mongodb.password +
-                    '@cluster0.lawom.mongodb.net/test?retryWrites=true&w=majority',
+                    process.env.DB_PASSWORD +
+                    '@node-react-oiru3.mongodb.net/node-react?retryWrites=true&w=majority',
                 { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false }
             )
             .then(() => console.log('Successfully connection to MongoDB'))

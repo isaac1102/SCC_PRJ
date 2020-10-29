@@ -1,5 +1,5 @@
-const router = express.Router();
+const router = require('express').Router();
 
-router.use('/accounts', require('./accounts'));
+router.use('/accounts', require('./account'));
 
 module.exports = router;
