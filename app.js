@@ -41,12 +41,14 @@ class App {
     dbConnection() {
         mongoose.Promise = global.Promise;
 
+        mongoose.set('useCreateIndex', true);
+
         mongoose
             .connect(
                 'mongodb+srv://' +
-                    keys.mongodb.user +
+                    process.env.DB_USER +
                     ':' +
-                    keys.mongodb.password +
+                    process.env.DB_PASSWORD +
                     '@cluster0.lawom.mongodb.net/test?retryWrites=true&w=majority',
                 { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false }
             )
