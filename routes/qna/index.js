@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const { Question } = require('../../models/qna/question');
-const question = require('../../models/qna/question');
 
 router.get('/question', function(req, res){
     Question.find({}, function(err, qst){
