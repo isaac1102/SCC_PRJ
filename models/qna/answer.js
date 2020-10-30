@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const AnswerSchema = mongoose.Schema({
     
     id: {
-        type: Integer,
+        type: Number,
         unique : true,
         required: true,
     },
@@ -12,10 +12,14 @@ const AnswerSchema = mongoose.Schema({
         required: true
     }, 
     like : {
-        type : Integer
+        type : Number
     }, 
     questionId : {
         type : String
+    },
+    regId:{
+        type : String,
+        required : true
     },
     registeredDate: {
         type: Date,
@@ -23,6 +27,6 @@ const AnswerSchema = mongoose.Schema({
     },
 });
 
-const Answer = (module.exports = mongoose.model('Answer', adminSchema));
+const Answer = (module.exports = mongoose.model('Answer', AnswerSchema));
 
 module.exports = { Answer };
