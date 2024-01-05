@@ -1,7 +1,8 @@
 repo_name: isaac1102/SCC_PRJ
 report_id: 2a8e4878075bf3faf90a4afc75846561
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-24T07:58:20+00:00'
+timestamp: '2024-01-05T08:33:23+00:00'
 requested_by: isaac1102
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/isaac1102/SCC_PRJ
   detection_source: Repo Metadata
 - name: ExpressJS
   description: Sinatra inspired web development framework for node.js -- insanely
@@ -28,7 +30,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/isaac1102/SCC_PRJ/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: elinluna
   last_updated_on: 2020-10-29 08:15:58.000000000 Z
@@ -42,7 +44,7 @@ tools:
   category: Data Stores
   sub_category: Object Document Mapper (ODM)
   image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/isaac1102/SCC_PRJ/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: elinluna
   last_updated_on: 2020-10-29 08:15:58.000000000 Z
@@ -55,6 +57,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/isaac1102/SCC_PRJ/blob/main/package.json
   detection_source: package.json
   last_updated_by: elinluna
   last_updated_on: 2020-10-29 08:15:58.000000000 Z
@@ -66,6 +69,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/isaac1102/SCC_PRJ
   detection_source: Repo Metadata
 - name: Yarn
   description: A new package manager for JavaScript
@@ -75,6 +79,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/isaac1102/SCC_PRJ/blob/main/yarn.lock
   detection_source: yarn.lock
   last_updated_by: elinluna
   last_updated_on: 2020-10-29 08:15:58.000000000 Z
@@ -86,6 +91,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/isaac1102/SCC_PRJ/blob/main/package.json
   detection_source: package.json
   last_updated_by: stevenjoeng
   last_updated_on: 2020-10-17 13:01:05.000000000 Z
@@ -100,7 +106,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/isaac1102/SCC_PRJ/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: elinluna
   last_updated_on: 2020-10-29 09:33:54.000000000 Z
@@ -114,7 +120,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16136/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/isaac1102/SCC_PRJ/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: elinluna
   last_updated_on: 2020-10-29 08:15:58.000000000 Z
@@ -128,7 +134,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/isaac1102/SCC_PRJ/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: elinluna
   last_updated_on: 2020-10-23 06:13:12.000000000 Z
@@ -142,7 +148,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/isaac1102/SCC_PRJ/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: elinluna
   last_updated_on: 2020-10-29 08:15:58.000000000 Z
@@ -163,7 +169,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16584/default_7be6bee773ad8b04cf2fb7e9ff82f5d7ba648dfd.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/isaac1102/SCC_PRJ/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: elinluna
   last_updated_on: 2020-10-23 06:13:12.000000000 Z
@@ -177,7 +183,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/isaac1102/SCC_PRJ/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: elinluna
   last_updated_on: 2020-10-29 09:33:54.000000000 Z
@@ -204,7 +210,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/isaac1102/SCC_PRJ/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: elinluna
   last_updated_on: 2020-10-29 08:15:58.000000000 Z
@@ -218,7 +224,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16082/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/isaac1102/SCC_PRJ/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: elinluna
   last_updated_on: 2020-10-29 08:15:58.000000000 Z
